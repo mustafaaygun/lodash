@@ -1,0 +1,21 @@
+{
+  "name": "lodash",
+  "version": "1.0.0",
+  "description": "Lodash kütüphanesi kullanılmıştır",
+  "main": "index.js",
+  "author": "Mustafa AYGUN",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/plugin-transform-arrow-functions": "^7.7.4",
+    "@babel/preset-env": "^7.7.7"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
